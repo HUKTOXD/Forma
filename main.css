@@ -1,0 +1,68 @@
+.inp {
+    clear: both; 
+    text-align: right;
+}
+
+.lab {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+input {
+    padding-left: 100px;
+}
+
+select {
+    font-size: 0.9rem;
+    padding-right: 186px;
+
+}
+
+.container {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+}
+
+.check {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.animal {
+    width: 23%;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.sub {
+    margin-top: 10px;
+    display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sub:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Форма заявки на работу в зоопарке</h1>
+    <p class="text"><em> Пожалуйста, заполните форму.Обязательные поля помечены</em> <em style="color: red;">*</em></p>
+    <form>
+        <fieldset class="form">
+        
+        <legend>Контактная информацию</legend>
+        <div class="container">
+            <div class="inp">
+                <label class="lab">Имя <em style="color: red;">*</em></label>
+                <input type="text" name="firstname"><br>
+            </div>
+            <div class="inp">
+                <label class="lab">Телефон</label>
+                <input type="text" name="lastname"><br>
+            </div>
+            <div class="inp">
+                <label class="lab">Email <em style="color: red;">*</em></label>
+                <input type="text" name="Email"><br>
+            </div>
+        </div> 
+        </fieldset>
+
+        <fieldset class="form">
+        
+            <legend>Персональная информация</legend>
+            <div class="container">
+                <div class="inp">
+                    <label class="lab">Возраст <em style="color: red;">*</em></label>
+                    <input type="text" name="firstname"><br>
+                </div>
+                <div class="inp">
+                    <label class="lab">Пол</label>
+                    <select name="gender" id="gd">
+                        <option value="man">Женщина</option>
+                        <option value="woman">Мужчина</option>
+                      </select><br>
+                </div>
+                <div class="inp">
+                    <label class="lab">Перечислите личные качества <em style="color: red;">*</em></label>
+                    <textarea rows="10" cols="34" name="text"></textarea>
+                </div>
+            </div> 
+            </fieldset>
+            <fieldset class="form">
+        
+                <legend>Выберитее ваших любимых животных</legend>
+                        <div class="check">
+                            <div class="animal">
+                                <label><input type="checkbox"> Животное 1</label>
+                            </div>
+                            <div class="animal">
+                                <label><input type="checkbox"> Животное 2</label>
+                            </div>
+                            <div class="animal">
+                                <label><input type="checkbox"> Животное 3</label>
+                            </div>
+                            <div class="animal">
+                                <label><input type="checkbox"> Животное 4</label>
+                            </div>
+                    
+                            <div class="animal">
+                                <label><input type="checkbox"> Животное 5</label>
+                            </div>
+                            <div class="animal">
+                                <label><input type="checkbox"> Животное 6</label>
+                            </div>
+                            <div class="animal">
+                                <label><input type="checkbox"> Животное 7</label>
+                            </div>
+                            <div class="animal">
+                                <label><input type="checkbox"> Животное 8</label>
+                            </div>
+                        </div>
+                </fieldset>
+        <input type="submit" value="Отправить информацию" class="sub">
+      </form>
+</body>
+</html>
